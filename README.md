@@ -1,20 +1,25 @@
-# 🤟 SignBridge – Real-Time Sign Language Communication System
+# 🤟 SignBridge – AI Sign Language Detection System
 
-## 🚨 Problem
+## 🚀 Live Demo
 
-Millions of people with hearing and speech impairments face daily communication barriers, especially in public services, education, and workplaces.
+👉 https://huggingface.co/spaces/jayantjain052005/asl-detector
+
+---
+
+## 🎯 Problem
+
+Communication barriers exist for people with hearing and speech impairments, especially in real-time interactions.
 
 ## 💡 Solution
 
-SignBridge is an AI-powered real-time sign language recognition system that converts hand gestures into readable text using computer vision and machine learning.
+SignBridge is an AI-powered real-time sign language detection system that converts hand gestures into readable text using computer vision.
 
 ## ⚙️ Features
 
-* 🎥 Real-time hand tracking using MediaPipe
-* 🤖 Machine learning-based gesture classification
-* 🧠 Supports multiple ASL alphabets
-* 💬 Converts gestures into text instantly
-* 🌐 Can be integrated into web or mobile apps
+* 🎥 Real-time gesture detection
+* 🤖 Machine learning classification
+* ✋ Hand tracking using MediaPipe
+* 💬 Instant text output
 
 ## 🛠️ Tech Stack
 
@@ -22,17 +27,21 @@ SignBridge is an AI-powered real-time sign language recognition system that conv
 * OpenCV
 * MediaPipe
 * Scikit-learn
+* Hugging Face Spaces (Deployment)
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+## 📸 Demo Preview
+
+(Add screenshots here)
 
 ## 🚀 Future Scope
 
-* Add voice output (Text-to-Speech)
-* Expand to full sentence recognition
-* Mobile app deployment
-
-## 👨‍💻 Team
-
-Coffee Break – HackIndia
-
-## 📌 Demo
-
-(Attach video or instructions here)
+* Voice output (Text-to-Speech)
+* Sentence prediction
+* Mobile app version
