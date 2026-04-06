@@ -1,30 +1,84 @@
-<<<<<<< HEAD
----
-title: ASL Sign Language Detector
-emoji: 🤟
-colorFrom: blue
-colorTo: purple
-sdk: docker
-pinned: false
+# 🤟 Real-Time ASL Sign Language Recognition System
+
+An AI-powered real-time sign language recognition system that converts hand gestures into text using computer vision and machine learning.
+
 ---
 
-# ASL Real-Time Sign Language Detector
+## 🚀 Live Demo
 
-Real-time American Sign Language (ASL) detection using MediaPipe hand landmarks and a scikit-learn classifier.
+👉 https://huggingface.co/spaces/jayantjain052005/asl-detector
 
-## How to Use
-1. Click **Start Camera** to enable your webcam
-2. Show your hand sign to the camera
-3. The detected letter appears instantly with confidence score
-4. Use the **Sign Reference** panel on the right to see all signs
-5. Letters are automatically added to history when held for 1.5 seconds
+---
 
-## Tech Stack
-- **MediaPipe** — hand landmark extraction (21 keypoints)
-- **scikit-learn** — Random Forest / MLP classifier
-- **Flask** — web server
-- **OpenCV** — image processing
-=======
+## 📌 Overview
+
+This project enables real-time detection of American Sign Language (ASL) gestures using a webcam. It uses hand landmark tracking and a trained machine learning model to classify gestures and display the corresponding text output instantly.
+
+---
+
+## ⚙️ Features
+
+* 🎥 Real-time webcam-based detection
+* 🤖 Machine learning gesture classification
+* ✋ Hand tracking using MediaPipe (21 landmarks)
+* 💬 Instant text output with confidence score
+* 🧠 Smart gesture hold detection (1.5s capture)
+* 📝 Letter history tracking for forming words
+* 📚 Built-in sign reference panel
+
+---
+
+## 🛠️ Tech Stack
+
+* **Python**
+* **OpenCV** — image processing
+* **MediaPipe** — hand tracking
+* **scikit-learn** — ML model (Random Forest / MLP)
+* **Flask** — backend
+* **Hugging Face Spaces (Docker)** — deployment
+
+---
+
+## ▶️ Installation & Setup
+
+```bash id="ny0d9p"
+git clone https://github.com/your-username/real-time-asl-recognition.git
+cd real-time-asl-recognition
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+## 🎮 Usage
+
+1. Launch the application
+2. Click **Start Camera**
+3. Show ASL gestures in front of webcam
+4. View real-time predictions with confidence scores
+5. Hold gestures to capture letters and form words
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 🚀 Future Improvements
+
+* 🔊 Text-to-Speech output
+* 🧠 Word and sentence prediction
+* 📱 Mobile app integration
+* 🌍 Support for multiple sign languages
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
 # 🤟 SignBridge – AI Sign Language Detection System
 
 ## 🚀 Live Demo
