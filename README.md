@@ -126,4 +126,4 @@ python app.py
 * Voice output (Text-to-Speech)
 * Sentence prediction
 * Mobile app version
->>>>>>> a3a0823a590c8286de4ff94dbddc09c8b848dd39
+
